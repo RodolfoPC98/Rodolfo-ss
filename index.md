@@ -46,3 +46,13 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     ![Ejemplo 7](image/ejemplo07.png)
     Aparentemente en la consola no pasa nada, pero recupera el archivo guardado en el repositorio. Incluso si es eliminado del *Working directory*.
     
+* Git **Branch**.
+
+    Si se digita este comando nos mostrará las ramas que existen dentro del proyecto.
+    ![Ejemplo 8](image/ejemplo08.png)
+    Si se desea agregar alguna nueva rama se debe realizar de la siguiente manera:
+    ![Ejemplo 9](image/ejemplo09.png)
+    Y ahora si volvemos a mostrar las ramas existentes, deberá aparecer la nueva versión que acabamos de crear.
+    ![Ejemplo 10](image/ejemplo10.png)
+    Nota: para cambias de rama, se debe escribir el comando "git branch" y a continuación el nombre de la rama.
+
