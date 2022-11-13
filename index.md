@@ -13,3 +13,8 @@
     
     Con esta instrucción podremos ver el *estado* de los directorios guardados en el *Staging Area*, y los que aún se encuentran dentro del *Working Directory* sin guardar. A continuación, se mostrará un ejemplo, donde indicará en color verde los cambios que fueron guardados previamente con "git add", y con color rojo los cambios que aún no han sido guardados. 
     ![Ejemplo 1](image/ejemplo01.png)
+
+* Git **commit**
+
+    Aquí se añade para capturar los directorios y guardarlos en el **Repository**, una vez dada la orden se introducirá en el editor de texto, donde se digitará una pequeña descripción de los cambios hehos.
+    ![Ejemplo 2](image/ejemplo02.png)
