@@ -1,5 +1,11 @@
 # <img src="image/logo-git.png" alt="Logo Git" width="40px"> Comandos útiles de Git y GitHub
 
+Se debe de tener como requisito previo una cuenta en *[GitHub](https://github.com/)* y tener instalado *[Git](https://git-scm.com/download/win)*, así como un editor de texto que le resulte más cómodo. Una vez cumplidos los requerimientos se configurará el nombre y el correo del usuario con los siguientes comandos:
+
+    git config --global user.name "Juan Perez"
+    git config --global user.email tuemail@ejemplo.com
+
+Una vez configurado los datos del usuario a continuación se mostrarán los comandos básicos para utilizar en cualquier proyecto: 
 
 * Git **init**.
 
@@ -18,3 +24,15 @@
 
     Aquí se añade para capturar los directorios y guardarlos en el **Repository**, una vez dada la orden se introducirá en el editor de texto, donde se digitará una pequeña descripción de los cambios hehos.
     ![Ejemplo 2](image/ejemplo02.png)
+    Para salir del editor de texto, basta con presionar la tecla "Esc" y escribir ":wq" para salir del editor y guardar los cambios.
+    ![Ejemplo 3](image/ejemplo03.png)
+    Para verificar que los cambios se guardaron correctamente debe aparecer algo como lo siguiente:
+    ![Ejemplo 4](image/ejemplo04.png)
+    Una manera más sencilla de guardar las capturas en el *repository* es agregando la siguiente linea de código:
+
+        git commit -m "Escriba aquí su mensaje"
+    
+    Donde "-m" indica que se va a escribir un mensaje; Se muestra en la consola de la siguiente manera:
+    ![Ejemplo05](image/ejemplo05.png)
+
+* Git **
