@@ -35,4 +35,4 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     Donde "-m" indica que se va a escribir un mensaje; Se muestra en la consola de la siguiente manera:
     ![Ejemplo05](image/ejemplo05.png)
 
-* Git **
+* Git **checkout**
