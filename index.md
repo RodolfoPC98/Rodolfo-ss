@@ -36,3 +36,5 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     ![Ejemplo05](image/ejemplo05.png)
 
 * Git **checkout**
+    
+    Es utilizado para  consultar o recuperar una línea existente dentro del *repository*.
