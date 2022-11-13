@@ -20,7 +20,7 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     Con esta instrucción podremos ver el *estado* de los directorios guardados en el *Staging Area*, y los que aún se encuentran dentro del *Working Directory* sin guardar. A continuación, se mostrará un ejemplo, donde indicará en color verde los cambios que fueron guardados previamente con "git add", y con color rojo los cambios que aún no han sido guardados. 
     ![Ejemplo 1](image/ejemplo01.png)
 
-* Git **commit**
+* Git **commit**.
 
     Aquí se añade para capturar los directorios y guardarlos en el **Repository**, una vez dada la orden se introducirá en el editor de texto, donde se digitará una pequeña descripción de los cambios hehos.
     ![Ejemplo 2](image/ejemplo02.png)
@@ -35,6 +35,14 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     Donde "-m" indica que se va a escribir un mensaje; Se muestra en la consola de la siguiente manera:
     ![Ejemplo05](image/ejemplo05.png)
 
+* Git **log**.
+    
+    Muestra el historial cronológico de confimación de un repositorio. Tal como se muestra en la imagen de abajo:
+    ![Ejemplo 6](image/ejemplo06.png)
+
 * Git **checkout**
     
-    Es utilizado para  consultar o recuperar una línea existente dentro del *repository*.
+    Es utilizado para  consultar o recuperar una línea existente dentro del *repository*. En el siguiente ejemplo se revertirá los cambios de un archivo en el cual se agrego un título al archivo "index.html".
+    ![Ejemplo 7](image/ejemplo07.png)
+    Aparentemente en la consola no pasa nada, pero recupera el archivo guardado en el repositorio. Incluso si es eliminado del *Working directory*.
+    
