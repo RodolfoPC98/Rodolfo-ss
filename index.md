@@ -7,21 +7,21 @@ Se debe de tener como requisito previo una cuenta en *[GitHub](https://github.co
 
 Una vez configurado los datos del usuario a continuación se mostrarán los comandos básicos para utilizar en cualquier proyecto: 
 
-* Git **init**.
+* ## Git **init**.
 
     Con este comando se inicia la sesión de git, se debe de iniciar por primera y única vez cuando no haz creado un directorio de **GIT**, una vez ejecutado se habrá cargado el **Working Directory** (directorio de trabajo), donde se creará una carpeta oculta llamada "*.git*" la cual llevará el control de los cambios del proyecto.
 
-* Git **add**.
+* ## Git **add**.
 
     Este comando tiene la función de subir los ficheros del **Working Directory** al **Staging Area** (área de ensayo).
 
-* Git **status**.
+* ## Git **status**.
     
     Con esta instrucción podremos ver el *estado* de los directorios guardados en el *Staging Area*, y los que aún se encuentran dentro del *Working Directory* sin guardar. A continuación, se mostrará un ejemplo, donde indicará en color verde los cambios que fueron guardados previamente con "git add", y con color rojo los cambios que aún no han sido guardados.
 
     ![Ejemplo 1](image/ejemplo01.png)
 
-* Git **commit**.
+* ## Git **commit**.
 
     Aquí se añade para capturar los directorios y guardarlos en el **Repository**, una vez dada la orden se introducirá en el editor de texto, donde se digitará una pequeña descripción de los cambios hehos.
 
@@ -47,13 +47,13 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
 
     ![Ejemplo 17](image/ejemplo17.png)
 
-* Git **log**.
+* ## Git **log**.
     
     Muestra el historial cronológico de confimación de un repositorio. Tal como se muestra en la imagen de abajo:
     
     ![Ejemplo 6](image/ejemplo06.png)
 
-* Git **checkout**
+* ## Git **checkout**
     
     Es utilizado para  consultar o recuperar una línea existente dentro del *repository*. En el siguiente ejemplo se revertirá los cambios de un archivo en el cual se agrego un título al archivo "index.html".
     
@@ -61,7 +61,7 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
 
     Aparentemente en la consola no pasa nada, pero recupera el archivo guardado en el repositorio. Incluso si es eliminado del *Working directory*.
     
-* Git **Branch**.
+* ## Git **Branch**.
 
     Si se digita este comando nos mostrará las ramas que existen dentro del proyecto.
 
@@ -77,7 +77,7 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
 
     Nota: para cambiar de rama, se debe escribir el comando "git checkout" y a continuación el nombre de la rama a la que se desea cambiar.
 
-* Git **remote**.
+* ## Git **remote**.
 
     Conecta un repositorio local con un repositorio remoto. En este caso se creará un nuevo repositorio en *GitHub* y se copiará lo seleccionado de la siguente captura.
 
@@ -89,7 +89,7 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
 
     Y con ello, tendremos conectado nuestro repositorio a *GitHub*.
 
-* Git **push**.
+* ## Git **push**.
 
     Envía *commits* locales al repositorio remoto. Requiere dos parámetros: el repositorio remoto y la rama para la que es el push.
 
@@ -107,7 +107,7 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
 
     ![Ejemplo 16](image/ejemplo16.png)
 
-* Git **clone**.
+* ## Git **clone**.
 
     Crea una copia de trabajo local de un repositorio remoto existente, se usa git clone para copiar y descargar el repositorio a una computadora.
     En nuestra cuenta de *GitHub* se copiará el link del proyecto que deseamos clonar.
@@ -117,5 +117,9 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     Se escribe el comando "git clone" seguido de la dirección copiada.
 
     ![Ejemplo 19](image/ejemplo19.png)
-    
+
     Podemos ver que efectivamente se clono, y ya se encuentra de nuevo en el equipo.
+
+* ## Git **pull**
+
+    Trae cambios externos que hayan realizado otros desarrolladores.
