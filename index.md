@@ -56,3 +56,17 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     ![Ejemplo 10](image/ejemplo10.png)
     Nota: para cambiar de rama, se debe escribir el comando "git checkout" y a continuación el nombre de la rama a la que se desea cambiar.
 
+* Git **remote**.
+
+    Conecta un repositorio local con un repositorio remoto. En este caso se creará un nuevo repositorio en *GitHub* y se copiará lo seleccionado de la siguente captura.
+    ![Ejemplo 11](image/ejemplo11.png)
+    Se ejecuta en la consola.
+    ![Ejemplo 12](image/ejemplo12.png)
+    Y con ello, tendremos conectado nuestro repositorio a *GitHub*.
+
+* Git **push**
+
+    Envía *commits* locales al repositorio remoto. Requiere dos parámetros: el repositorio remoto y la rama para la que es el push.
+    ![Ejemplo 13](image/ejemplo13.png)
+    Una vez ejecutado el comando nos mostrará un *login* para conectar el repositorio local a *GitHub*.
+    ![Ejemplo 14](image/ejemplo14.png)
