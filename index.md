@@ -54,5 +54,5 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     ![Ejemplo 9](image/ejemplo09.png)
     Y ahora si volvemos a mostrar las ramas existentes, deberá aparecer la nueva versión que acabamos de crear.
     ![Ejemplo 10](image/ejemplo10.png)
-    Nota: para cambias de rama, se debe escribir el comando "git branch" y a continuación el nombre de la rama.
+    Nota: para cambiar de rama, se debe escribir el comando "git checkout" y a continuación el nombre de la rama a la que se desea cambiar.
 
