@@ -35,7 +35,7 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     Donde "-m" indica que se va a escribir un mensaje; Se muestra en la consola de la siguiente manera:
     ![Ejemplo 5](image/ejemplo05.png)
 
-    Para omitir el paso de *git add* y capturar directamente. se agrega la intrucción "-am", de la siguiente manera:
+    Para guardar la captura de manera más rápida se digita la instrucción "-am" de la siguiente manera:
     ![Ejemplo 17](image/ejemplo17.png)
 
 * Git **log**.
@@ -43,13 +43,13 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     Muestra el historial cronológico de confimación de un repositorio. Tal como se muestra en la imagen de abajo:
     ![Ejemplo 6](image/ejemplo06.png)
 
-* Git **checkout**.
+* Git **checkout**
     
     Es utilizado para  consultar o recuperar una línea existente dentro del *repository*. En el siguiente ejemplo se revertirá los cambios de un archivo en el cual se agrego un título al archivo "index.html".
     ![Ejemplo 7](image/ejemplo07.png)
     Aparentemente en la consola no pasa nada, pero recupera el archivo guardado en el repositorio. Incluso si es eliminado del *Working directory*.
     
-* Git **branch**.
+* Git **Branch**.
 
     Si se digita este comando nos mostrará las ramas que existen dentro del proyecto.
     ![Ejemplo 8](image/ejemplo08.png)
@@ -73,7 +73,16 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     ![Ejemplo 13](image/ejemplo13.png)
     Una vez ejecutado el comando nos mostrará un *login* para conectar el repositorio local a *GitHub*.
     ![Ejemplo 14](image/ejemplo14.png)
-    En este caso se iniciará sesión con el navegador predeterminado y se concederá los permisos necesarios.
+    Se usará el navegador predeterminado para iniciar la sesión, y se le concederá los permisos necesarios.
     ![Ejemplo 15](image/ejemplo15.png)
-    Y por último debe cargar en la consola algo como lo siguiente para tener la certeza que se cargo correctamente:
+    Y se mostrará en la consola de la siguiente manera para corroborar que se guardo correctamente.
     ![Ejemplo 16](image/ejemplo16.png)
+
+* Git **clone**.
+
+    Crea una copia de trabajo local de un repositorio remoto existente, se usa git clone para copiar y descargar el repositorio a una computadora.
+    En nuestra cuenta de *GitHub* se copiará el link del proyecto que deseamos clonar.
+    ![Ejemplo 18](image/ejemplo18.png)
+    Se escribe el comando "git clone" seguido de la dirección copiada.
+    ![Ejemplo 19](image/ejemplo19.png)
+    Podemos ver que efectivamente se clono, y ya se encuentra de nuevo en el equipo.
