@@ -33,20 +33,23 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
         git commit -m "Escriba aquí su mensaje"
     
     Donde "-m" indica que se va a escribir un mensaje; Se muestra en la consola de la siguiente manera:
-    ![Ejemplo05](image/ejemplo05.png)
+    ![Ejemplo 5](image/ejemplo05.png)
+
+    Para omitir el paso de *git add* y capturar directamente. se agrega la intrucción "-am", de la siguiente manera:
+    ![Ejemplo 17](image/ejemplo17.png)
 
 * Git **log**.
     
     Muestra el historial cronológico de confimación de un repositorio. Tal como se muestra en la imagen de abajo:
     ![Ejemplo 6](image/ejemplo06.png)
 
-* Git **checkout**
+* Git **checkout**.
     
     Es utilizado para  consultar o recuperar una línea existente dentro del *repository*. En el siguiente ejemplo se revertirá los cambios de un archivo en el cual se agrego un título al archivo "index.html".
     ![Ejemplo 7](image/ejemplo07.png)
     Aparentemente en la consola no pasa nada, pero recupera el archivo guardado en el repositorio. Incluso si es eliminado del *Working directory*.
     
-* Git **Branch**.
+* Git **branch**.
 
     Si se digita este comando nos mostrará las ramas que existen dentro del proyecto.
     ![Ejemplo 8](image/ejemplo08.png)
@@ -64,9 +67,13 @@ Una vez configurado los datos del usuario a continuación se mostrarán los coma
     ![Ejemplo 12](image/ejemplo12.png)
     Y con ello, tendremos conectado nuestro repositorio a *GitHub*.
 
-* Git **push**
+* Git **push**.
 
     Envía *commits* locales al repositorio remoto. Requiere dos parámetros: el repositorio remoto y la rama para la que es el push.
     ![Ejemplo 13](image/ejemplo13.png)
     Una vez ejecutado el comando nos mostrará un *login* para conectar el repositorio local a *GitHub*.
     ![Ejemplo 14](image/ejemplo14.png)
+    En este caso se iniciará sesión con el navegador predeterminado y se concederá los permisos necesarios.
+    ![Ejemplo 15](image/ejemplo15.png)
+    Y por último debe cargar en la consola algo como lo siguiente para tener la certeza que se cargo correctamente:
+    ![Ejemplo 16](image/ejemplo16.png)
